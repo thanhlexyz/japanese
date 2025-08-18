@@ -1,0 +1,12 @@
+KANJI	VI	EN	ELEMENT	STORY	LESSON	JLPT
+古	cổ	old	tombstone; gravestone; church; ten; needle; mouth		2	4	deck#6	due@2026-01-08 13:36:19
+吾	ngô	I	five; mouth		2	5	deck#6	due@2026-01-08 13:36:20
+明	minh	bright	sun; day; moon; month; flesh; part of the body		2	4	deck#6	due@2026-01-08 13:36:22
+品	phẩm	goods	mouth		2	4	deck#6	due@2026-01-08 13:36:22
+早	tảo	early	sunflower; sun; day; ten; needle		2	4	deck#6	due@2026-01-08 13:36:23
+世	thế	generation	ten; twenty		2	4	deck#6	due@2026-01-08 13:36:25
+胃	vị	stomach	rice field; brains; moon; month; flesh; part of the body		2	2	deck#6	due@2026-01-08 13:36:26
+#--decks immediate,daily,weekly,monthly,quarterly,yearly
+#--intervals 0,1440,10080,43200,129600,518400
+#--showcolumns KANJI
+#--showcolumns KANJI,VI,EN,ELEMENT,STORY

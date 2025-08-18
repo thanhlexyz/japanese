@@ -1,0 +1,10 @@
+KANJI	VI	EN	ELEMENT	STORY	LESSON	JLPT
+甘	cam	sweet	wicker basket; picnic basket		46.00	2.00		
+期	kỳ	period	bushel basket; month;	One BUSHEL BASKET full of rice is enough to sustain a small family for a PERIOD of one MONTH.	46.00	3.00		
+潰	hội	defile	water; precious;	Don't defile precious water.	46.00	5.00		
+舞	vũ	dance	wooden tub; sunglasses;	The yakuza boss reclines in the oaken bathtub wearing his shades while his personal harem dances nakes for him.	46.00	3.00		
+無	mô	nothingness	wooden tub; flames;	"When I enter the wooden tub heated by flames in the onsen, I can let all my worries slip away and be submerged into nothingness."	46.00	5.00		
+#--decks immediate,daily,weekly,monthly,quarterly,yearly
+#--intervals 0,1440,10080,43200,129600,518400
+#--showcolumns KANJI
+#--showcolumns KANJI,VI,EN,ELEMENT,STORY
