@@ -1,0 +1,54 @@
+#!/home/thanh/.local/share/venv/bin/python
+from datetime import datetime
+import csv
+import sys
+import os
+
+def parse_tsv(path):
+    new, due, learned = 0, 0, 0
+    current_time = datetime.now()
+
+    with open(path, 'r', encoding='utf-8') as tsv_file:
+        reader = csv.reader(tsv_file, delimiter='\t')
+        headers = next(reader)  # Skip the header row
+        for lineno, row in enumerate(reader, start=2):  # Start at 2 due to header
+            if 'due@' in '\t'.join(row):
+                for entry in row:
+                    if entry.startswith('due@'):
+                        due_time_str = entry.split('@')[1]
+                        due_time = datetime.strptime(due_time_str, '%Y-%m-%d %H:%M:%S')
+                        if due_time < current_time:
+                            due += 1
+                        else:
+                            learned += 1
+                # Checking if 'deck#' is present but not counting it towards new words
+            else:
+                # Only count rows that do not contain 'deck#' or 'due@' for new words
+                if not '\t'.join(row).startswith('#'):
+                    new += 1
+    return new, due, learned
+
+def parse_dir(directory):
+    dir_new, dir_due, dir_learned = 0, 0, 0
+    for name in os.listdir(directory):
+        if name.endswith('.tsv'):
+            path = os.path.join(directory, name)
+            new, due, learned = parse_tsv(path)
+            dir_new     += new
+            dir_due     += due
+            dir_learned += learned
+    return dir_new, dir_due, dir_learned
+
+if __name__ == '__main__':
+    if len(sys.argv) == 1:
+        print(f'usage $ ./{sys.argv[0]} <dir_1> <dir_1>')
+        exit(1)
+    for directory in sys.argv[1:]:
+        if os.path.isdir(directory):
+            new, due, learned = parse_dir(directory)
+            total = (new + due + learned)
+            if total > 0:
+                percentage = learned / total * 100
+            else:
+                percentage = 0
+            print(f'{directory}: {new=} {due=} {learned=} ({percentage:0.1f}%)')

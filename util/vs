@@ -1,0 +1,42 @@
+#!/home/thanh/.local/share/venv/bin/python
+from datetime import datetime
+import csv
+import sys
+import os
+
+def parse_tsv(path):
+    new, due, learned = 0, 0, 0
+    current_time = datetime.now()
+
+    with open(path, 'r', encoding='utf-8') as tsv_file:
+        reader = csv.reader(tsv_file, delimiter='\t')
+        headers = next(reader)  # Skip the header row
+        for lineno, row in enumerate(reader, start=2):  # Start at 2 due to header
+            if 'due@' in '\t'.join(row):
+                for entry in row:
+                    if entry.startswith('due@'):
+                        due_time_str = entry.split('@')[1]
+                        due_time = datetime.strptime(due_time_str, '%Y-%m-%d %H:%M:%S')
+                        if due_time < current_time:
+                            due += 1
+                        else:
+                            learned += 1
+                # Checking if 'deck#' is present but not counting it towards new words
+            else:
+                # Only count rows that do not contain 'deck#' or 'due@' for new words
+                if not '\t'.join(row).startswith('#'):
+                    new += 1
+    return new, due, learned
+
+if __name__ == '__main__':
+    if len(sys.argv) == 1:
+        print(f'usage $ ./{os.path.basename(sys.argv[0])} <tsv_file_1> <tsv_file_2> ...')
+        exit(1)
+    for path in sys.argv[1:]:
+        new, due, learned = parse_tsv(path)
+        total = (new + due + learned)
+        if total > 0:
+            percentage = learned / total * 100
+        else:
+            percentage = 0
+        print(f'{path}: {new=} {due=} {learned=} ({percentage:0.1f}%)')
