@@ -8,4 +8,5 @@ KANJI	VI	EN	ELEMENT	STORY	LESSON	JLPT
 髪	phát	hair of the head	hairstyle; hair; shape; friend		52.00	3.00
 #--decks immediate,daily,weekly,monthly,quarterly,yearly
 #--intervals 0,1440,10080,43200,129600,518400
+#--showcolumns KANJI
 #--showcolumns KANJI,VI,EN,ELEMENT,STORY

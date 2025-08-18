@@ -1,0 +1,22 @@
+JP	HIRAGANA	VN	MEANING
+正調	せいちょう	thành trường	sinh trưởng; sự phát triển	deck#3	due@2025-03-13 07:06:51
+成人	せいじん	thành nhân	người trưởng thành	deck#3	due@2025-03-11 06:42:02
+合格	ごうかく	hợp cách	thi đỗ; trúng tuyển	deck#3	due@2025-03-11 06:42:03
+進学	しんがく	tiến học	học lên	deck#3	due@2025-03-11 06:42:04
+退学	たいがく	thoái học	sự bỏ học	deck#3	due@2025-03-11 06:42:06
+就職	しゅうしょく	tựu chức	sự tìm việc	deck#3	due@2025-03-11 06:42:08
+退職	たいしょく	thoái chức	sự nghỉ việc	deck#3	due@2025-03-11 06:42:10
+失業	しつぎょう	thất nghiệp	thất nghiệp	deck#3	due@2025-03-11 06:42:13
+残業	ざんぎょう	tàn nghiệp	làm thêm giờ	deck#3	due@2025-03-11 06:42:15
+生活	せいかつ	sinh hoạt	cuộc sống;sinh hoạt	deck#4	due@2025-04-03 06:42:22
+通勤	つうきん	thông cần	đi làm	deck#3	due@2025-03-11 06:42:25
+学歴	がくれき	học lịch	bằng cấp; quá trình học tập	deck#3	due@2025-03-11 06:42:26
+給料	きゅうりょう	cấp liệu	tiền lương	deck#3	due@2025-03-11 06:42:28
+面接	めんせつ	diện tiếp	phỏng vấn	deck#3	due@2025-03-11 06:42:29
+休憩	きゅうけい	hưu khế	nghỉ giải lao	deck#3	due@2025-03-11 06:42:31
+観光	かんこう	quan quang	tham quan; du lịch	deck#3	due@2025-03-11 06:42:32
+帰国	きこく	quy quốc	về nước	deck#3	due@2025-03-11 06:42:34
+#--decks immediate,daily,weekly,monthly,quarterly,yearly
+#--intervals 0,1440,10080,43200,129600,518400
+#--showcolumns JP
+#--showcolumns JP,HIRAGANA,VN,MEANING

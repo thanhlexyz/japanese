@@ -1,0 +1,15 @@
+JP	MEANING	FORM	EXAMPLE
+～ことにしている	Hành động/thói quen do mình tự quyết định	Ｖる／Ｖない＋ことにしている	健康のため、毎朝牛乳を飲むことにしている	deck#3	due@2025-03-16 12:29:57
+～ことになっている	Thói quen/tập quán/quy tắc/dự định không được quyết định dựa trên ý chí của người nói	Ｖる／Ｖない＋ことになっている	法律では、２０歳未満はお酒を飲んではいけないことになっている	deck#3	due@2025-03-16 12:32:08
+～ようになっている	Nói về chức năng của máy móc	Ｖる／Ｖない＋ようになっている	このストーブは大きく傾くと、自動的に火が消えるようになっている	deck#4	due@2025-04-08 12:27:59
+～ような／ように	Chỉ ra ví dụ	[N/V] Dạng bổ nghĩa danh từ + ような／ように	私は赤やピンクのような、明るい色が好きだ	deck#3	due@2025-03-16 12:31:56
+～みたいだ(1)	Có vẻ; phỏng đoán	[N/A]な bỏ な / [V/A]い thể thông thường + みたいだ	あの店、人気がないみたいだね。いつ行ってもすいている。	deck#3	due@2025-03-16 12:31:33
+～みたいだ(2)	Gióng như là ... (nhưng thực sự không phải thế)	[N/V] thể thông thường + みたいだ	宝くじで１０００万円当たった。夢を見ているみたいだ。	deck#3	due@2025-03-16 12:26:57
+～みたいだ(3)	Chi ra ví dụ = よう (Giống mẫu câu số 4)	私も早くリンさんみたいに、日本語が上手になりたいなあ。		deck#3	due@2025-03-16 12:25:05
+～らしい	Đem lại cảm nhận một cách mạnh mẽ; giống như; có vẻ như là	Ｎ＋らしい	大山さんは拾ってきたネコを育てているそうだ。いかにも動物好きな彼らしい。	deck#3	due@2025-03-16 12:31:48
+～つもり	Đã tin rằng ... (nhưng thực tế không phải như thế)	N＋の／Ｖた／Ｖている／Ａい／Ａな＋つもり	メールを送ったつもりだったが、届いていなかった。	deck#3	due@2025-03-16 12:29:07
+～てくる	Chỉ hành động;phản ứng tự nhiên xuất hiện từ trong tâm; cơ thể	Ｖて＋くる	こう熱いと、じっとしていても汗がでてくる。	deck#3	due@2025-03-16 12:31:04
+#--decks immediate,daily,weekly,monthly,quarterly,yearly
+#--intervals 0,1440,10080,43200,129600,518400
+#--showcolumns JP
+#--showcolumns JP,MEANING,FORM,EXAMPLE
