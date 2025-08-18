@@ -33,7 +33,7 @@ vsd *
 ```
 
 To check progress of each lesson, use:
-```
+```bash
 cd kanji
 vs *
 ```
