@@ -1,11 +1,11 @@
 KANJI	VI	EN	ELEMENT	STORY	LESSON	JLPT
-牙	nha	tusk			52.00	5.00
-番	phiên	turn	dice; animal tracks; drop; rice; rice field; brains		52.00	3.00
-毛	mao	fur			52.00	2.00
-宅	trạch	home	house; lock of hair		52.00	3.00
-畏	úy	apprehensive	rice field; brains; hairpin; safety-pin		52.00	5.00
-長	trường	long	hair; hairpin; safety-pin		52.00	5.00
-髪	phát	hair of the head	hairstyle; hair; shape; friend		52.00	3.00
+牙	nha	tusk			52.00	5.00		
+番	phiên	turn	dice; animal tracks; drop; rice; rice field; brains		52.00	3.00		
+毛	mao	fur			52.00	2.00		
+宅	trạch	home	house; lock of hair		52.00	3.00		
+畏	úy	apprehensive	rice field; brains; hairpin; safety-pin		52.00	5.00		
+長	trường	long	hair; hairpin; safety-pin		52.00	5.00		
+髪	phát	hair of the head	hairstyle; hair; shape; friend		52.00	3.00		
 #--decks immediate,daily,weekly,monthly,quarterly,yearly
 #--intervals 0,1440,10080,43200,129600,518400
 #--showcolumns KANJI
