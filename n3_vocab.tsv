@@ -1,0 +1,125 @@
+JP	HIRAGANA	MEANING	VN
+男性	だんせい	male	
+女性	じょせい	woman	
+高齢	こうれい	Older	
+年上	としうえ	Older	
+目上	めうえ	superior	
+先輩	せんぱい	senior	
+後輩	こうはい	one's junior	
+上司	じょうし	boss	
+相手	あいて	partner	
+知り合い	しりあい	acquaintance	
+友人	ゆうじん	friend	
+仲	なか	Encounter	
+生年月日	せいねんがっぴ	date of birth	
+誕生	たんじょう	birth	
+年	ねん	year	
+出身	しゅっしん	Birthplace	
+故郷	こきょう	hometown	
+成長	せいちょう	growth	
+成人	せいじん	adult	
+合格	ごうかく	Pass	
+進学	しんがく	Advancement	
+退学	たいがく	Expulsion	
+就職	しゅうしょく	find work	
+退職	たいしょく	retirement	
+失業	しつぎょう	unemployment	
+残業	ざんぎょう	overtime	
+生活	せいかつ	life	
+通勤	つうきん	commute	
+学歴	がくれき	Educational background	
+給料	きゅうりょう	salary	
+面接	めんせつ	interview	
+休憩	きゅうけい	break	
+観光	かんこう	sightseeing	
+帰国	きこく	Return to Japan	
+帰省	きせい	Returning to the home	
+帰宅	きたく	Go home	
+参加	さんか	Participation	
+出席	しゅっせき	Attendance	
+欠席	けっせき	absence	
+遅刻	ちこく	behind time	
+化粧	けしょう	makeup	
+計算	けいさん	Calculation	
+計画	けいかく	plan	
+成功	せいこう	success	
+失敗	しっぱい	Fail	
+準備	じゅんび	Preparation	
+整理	せいり	Organize	
+注文	ちゅうもん	order	
+貯金	ちょきん	saving	
+徹夜	てつや	All night	
+引っ越し	ひっこし	moving	
+身長	しんちょう	height	
+体重	たいじゅう	body weight	
+けが	けが	Injury	
+会	かい	Meeting	
+趣味	しゅみ	hobby	
+興味	きょうみ	interest	
+思い出	おもいで	memory	
+冗談	じょうだん	joke	
+目的	もくてき	the purpose	
+約束	やくそく	promise	
+おしゃべり	おしゃべり	Talk	
+遠慮	えんりょ	refrain	
+我慢	がまん	patience	
+迷惑	めいわく	bothersome	
+希望	きぼう	Hope	
+夢	ゆめ	dream	
+賛成	さんせい	agreement	
+反対	はんたい	Opposition	
+想像	そうぞう	Imagination	
+努力	どりょく	effort	
+太陽	たいよう	solar	
+地球	ちきゅう	Earth	
+温度	おんど	temperature	
+湿度	しつど	Humidity	
+湿気	しっけ	moisture	
+梅雨	つゆ	rainy season	
+かび	かび	Fried	
+暖房	だんぼう	heating	
+皮	かわ	leather	
+缶	かん	can	
+画面	がめん	screen	
+番組	ばんぐみ	program	
+記事	きじ	article	
+近所	きんじょ	neighborhood	
+警察	けいさつ	police	
+犯人	はんにん	culprit	
+小銭	こぜに	coin	
+ごちそう	ごちそう	Feast	
+作者	さくしゃ	author	
+作品	さくひん	the work	
+制服	せいふく	uniform	
+洗剤	せんざい	detergent	
+底	そこ	bottom	
+地下	ちか	underground	
+寺	てら	temple	
+道路	どうろ	road	
+坂	さか	slope	
+煙	けむり	smoke	
+灰	はい	ash	
+判	はん	Score	
+名刺	めいし	business card	
+免許	めんきょ	driver licence	
+多く	おおく	Many	
+前半	ぜんはん	first half	
+後半	こうはん	Second half	
+最高	さいこう	The best	
+最低	さいてい	The lowest	
+最初	さいしょ	first	
+最後	さいご	last	
+自動	じどう	Automatic	
+種類	しゅるい	kinds	
+性格	せいかく	Personality	
+性質	せいしつ	nature	
+順番	じゅんばん	order	
+番	ばん	Number	
+方法	ほうほう	method	
+製品	せいひん	product	
+値上がり	ねあがり	Price increase	
+生	なま	raw	
+#--decks immediate,daily,weekly,monthly,quarterly,yearly
+#--intervals 0,1440,10080,43200,129600,518400
+#--showcolumns JP
+#--showcolumns JP,HIRAGANA,VN,MEANING

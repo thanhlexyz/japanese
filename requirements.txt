@@ -1,0 +1,4 @@
+googletrans
+pykakasi
+pandas
+tqdm
