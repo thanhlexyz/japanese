@@ -22,7 +22,7 @@ kks = pykakasi.kakasi()
 async def translate(text):
     async with Translator() as translator:
         result = await translator.translate(word, src='ja', dest='en')
-    return result.text
+    return result.text.lower()
 
 for word in tqdm.tqdm(words):
     hiragana = kks.convert(word)[0]['hira']
