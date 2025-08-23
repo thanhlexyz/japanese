@@ -1,1 +1,8 @@
-resource/
+*.pyc
+__pycache__/
+data/
+**resource**
+
+.vscode/
+venv/
+venv3.10/
