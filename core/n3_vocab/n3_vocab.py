@@ -4,10 +4,10 @@ import pykakasi
 import asyncio
 import tqdm
 
-config = '''#--decks immediate,daily,weekly,monthly,quarterly,yearly
+#--decks immediate,daily,weekly,monthly,quarterly,yearly
 #--intervals 0,1440,10080,43200,129600,518400
 #--showcolumns JP
-#--showcolumns JP,HIRAGANA,VN,MEANING'''
+#--showcolumns JP,HIRAGANA,VN,MEANING
 
 names = ['JP', 'HIRAGANA', 'MEANING', 'VN']
 
@@ -34,7 +34,4 @@ for word in tqdm.tqdm(words):
     data['VN'].append('')
 
 df = pd.DataFrame(data)
-df.to_csv('n3_vocab.tsv', index=None, sep='\t')
-
-with open('n3_vocab.tsv', 'a') as fp:
-    fp.write(config)
+df.to_csv('n3_vocab.csv', index=None)
