@@ -3,6 +3,7 @@ import pandas as pd
 import pykakasi
 import asyncio
 import tqdm
+import time
 
 #--decks immediate,daily,weekly,monthly,quarterly,yearly
 #--intervals 0,1440,10080,43200,129600,518400
@@ -32,6 +33,7 @@ for word in tqdm.tqdm(words):
     data['HIRAGANA'].append(hiragana)
     data['MEANING'].append(meaning)
     data['VN'].append('')
+    time.sleep(1.0)
 
 df = pd.DataFrame(data)
 df.to_csv('n3_vocab.csv', index=None)
