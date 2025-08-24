@@ -1,18 +1,18 @@
-KANJI	VI	EN	ELEMENT	STORY	LESSON	JLPT
-紙	chỉ	paper	thread; spiderman; family name		49.00	4.00		
-婚	hôn	marriage	woman; dusk; family name; day		49.00	3.00		
-低	đê	lower	person; calling card; family name; one; floor		49.00	2.00		
-底	để	bottom	cave; calling card; family name; one; floor		49.00	2.00		
-民	dân	people	mouth; family name		49.00	3.00		
-眠	miên	sleep	eye; people; mouth; family name		49.00	3.00		
-捕	bộ	catch	finger; fingers; dog-tag; arrowhead; screwdriver; utilize; utilise		49.00	3.00		
-哺	bộ	suckle			49.00	5.00		
-蒲	bồ	bullrush	bulrush; flowers; bay; water; water droplets; water pistol; dog-tag; arrowhead; screwdriver; utilize; utilise		49.00	5.00		
-補	bổ	supplement	cloak; dog-tag; arrowhead; screwdriver; utilize; utilise		49.00	2.00		
-郊	giao	outskirts	mingle; top hat; father; city walls		49.00	2.00		
-部	bộ	section	muzzle; vase; stand up; mouth; city walls		49.00	3.00		
-都	đô	metropolis	someone; puppet; sooty; old man; sun; day; city walls		49.00	3.00		
-郵	bưu	mail	droop; silage; city walls		49.00	2.00		
+KANJI	VI	EN	ELEMENT	STORY
+紙	chỉ	paper	spiderman; family name;	Spiderman doesn't have a single paper with his family name on it (because he doesn't want to reveal his identity).
+婚	hôn	marriage	woman; family name; day	Marriage is the day in this woman's life where she gets a new family name.
+低	đê	lower	person; calling card; 	Mr. T travels to Japan and knows he must bow lower when presenting his business card.
+底	để	bottom	cave; calling card; 	I put all those useless business cards at the bottom of a cave.
+民	dân	people	mouth; family name	All the people of the world with all their family names shouting with their big mouths.
+眠	miên	sleep	eye; people; 	"In an Orwellian sense, the eye watching the people never sleeps."
+捕	bộ	catch	finger; dog-tag;	"In some countries when they catch a thief, they cut his fingers and put a sturdy RFID dog tag on him."
+哺	bộ	suckle	mouth; dog-tag;	The extremely efficient (military veteran) wet-nurse keeps track of which infant has been SUCKLEd already by marking each MOUTH with a DOG-TAG
+蒲	bồ	bullrush	flowers; bay;	I sell bulrush flowers on e-bay.
+補	bổ	supplement	cloak; dog-tag; 	"Ah yes, this dog tag perfectly supplements my cloak!"
+郊	giao	outskirts	mingle; city walls;	"The country folk and and the city folk mingle at the outskirts of town, just past the city walls."
+部	bộ	section	muzzle; city walls;	"Within the city walls, this section of town was so noisy that we had to muzzle them up."
+都	đô	metropolis	someone; city walls;	"In a huge metropolis, it's hard not to feel like just someone within the city walls."
+郵	bưu	mail	droop; city walls;	The drooping citywalls was generating a lot of angry mail for the city officials.
 #--decks immediate,daily,weekly,monthly,quarterly,yearly
 #--intervals 0,1440,10080,43200,129600,518400
 #--showcolumns KANJI
